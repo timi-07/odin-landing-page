@@ -1,0 +1,151 @@
+
+*{
+    text-decoration: none;
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+    font-family: Verdana, sans-serif
+}
+
+button{
+    background-color: #3882F6;
+    color: white;
+    border: none;
+    border-radius: 10px;
+}
+button:hover{
+    cursor: pointer;
+    filter: brightness(80%);
+}
+
+
+/* header section */
+header{
+    display: flex;
+    justify-content: flex-end;
+    align-items: center;
+    background-color: #1f2937;
+    padding: 10px;
+
+    
+}
+
+nav{
+    color: white;
+    display: block;
+}
+nav ul li{
+    margin: 0 10px;
+    display: inline-block;
+}
+nav ul li:hover{
+    cursor: pointer;
+    text-decoration: underline 2px orange;
+}
+
+.logo{
+    color: white;
+    margin-right: auto;
+}
+
+.logo:hover{
+    cursor: pointer;
+}
+
+
+
+
+/* SIGN UP SECTION  */
+
+.sign-up{
+    margin-bottom: 10px;
+    height: 300px;
+    padding: 50px 100px;
+    background-color: #1f2937;
+    display: flex;
+    align-items: center;
+    color: white;
+    justify-content: space-between;
+}
+
+.sign-sec{
+    height: auto;
+    display: block;
+
+}
+.sign-sec h1{
+    size: 48px;
+    text-align: justify;
+}
+.sign-sec p{
+    text-align: justify;
+}
+.sign-sec button{
+    height: 35px;
+    width: 70px;
+
+}
+.sign-img{
+    height: 100%;
+    text-align: center;
+    display: block;
+    background: white;
+}
+
+
+
+
+
+
+/* INFO SECTION */
+.info{
+    display: block;
+}
+.info h1{
+    margin-bottom: 10px;
+    text-align: center;
+}
+.info-img{
+    display: flex;
+    justify-content: center;
+    gap: 15px;
+}
+img-cont{
+    display: block;
+    text-align: center;
+    height: 200px;
+    width: auto;
+    transition: transform .2s;
+}
+img-cont:hover{
+    transform: scale(1.1);
+}
+img-cont img{
+    border-radius: 10px;
+    outline: solid 2px #3882F6;
+    display: block;
+    height: 80%;
+    width: 100%;
+}
+
+info-desc{
+    display: block;
+    text-align: center;
+}
+
+/* review SECTION */
+.review{
+    display: block;
+    background-color: lightgray;
+    margin: 20px 0;
+}
+
+
+/* FOOTER */
+
+footer{
+    background-color: #1f2937;
+    color: white;
+    margin-top: 100px;
+    text-align: center;
+}
