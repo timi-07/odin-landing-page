@@ -6,6 +6,15 @@
     box-sizing: border-box;
     font-family: Verdana, sans-serif
 }
+header, section, footer{
+    padding: 40px 90px;
+}
+
+header, .sign-up, footer{
+    background-color: #1f2937;
+    color: white;
+}
+
 
 button{
     background-color: #3882F6;
@@ -24,10 +33,6 @@ header{
     display: flex;
     justify-content: flex-end;
     align-items: center;
-    background-color: #1f2937;
-    padding: 10px;
-
-    
 }
 
 nav{
@@ -40,7 +45,7 @@ nav ul li{
 }
 nav ul li:hover{
     cursor: pointer;
-    text-decoration: underline 2px orange;
+    text-decoration: underline 2px #3882F6;
 }
 
 .logo{
@@ -58,13 +63,8 @@ nav ul li:hover{
 /* SIGN UP SECTION  */
 
 .sign-up{
-    margin-bottom: 10px;
-    height: 300px;
-    padding: 50px 100px;
-    background-color: #1f2937;
     display: flex;
     align-items: center;
-    color: white;
     justify-content: space-between;
 }
 
@@ -86,7 +86,8 @@ nav ul li:hover{
 
 }
 .sign-img{
-    height: 100%;
+    height: 200px;
+    width: auto;
     text-align: center;
     display: block;
     background: white;
@@ -137,15 +138,12 @@ info-desc{
 .review{
     display: block;
     background-color: lightgray;
-    margin: 20px 0;
 }
 
 
 /* FOOTER */
 
 footer{
-    background-color: #1f2937;
-    color: white;
     margin-top: 100px;
     text-align: center;
 }
