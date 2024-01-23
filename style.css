@@ -7,7 +7,7 @@
     font-family: Verdana, sans-serif
 }
 header, section, footer{
-    padding: 40px 90px;
+    padding: 40px 150px;
 }
 
 header, .sign-up, footer{
@@ -139,8 +139,30 @@ info-desc{
     display: block;
     background-color: lightgray;
 }
-
-
+/* idk yet */
+.idk-yet{
+    display: flex;
+    justify-content: center;
+}
+banner{
+    border-radius: 10px;
+    width: 75%;
+    padding: 20px 30px;
+    gap: 10px;
+    display: inline-flex;
+    justify-content: space-evenly;
+    align-items: center;
+    background-color: #3882F6;
+}
+banner button{
+    outline: solid 2px white;
+    height: 35px;
+    width: 70px;
+}
+banner-text{
+    display: block;
+    text-align: justify;
+}
 /* FOOTER */
 
 footer{
