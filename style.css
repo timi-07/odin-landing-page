@@ -6,8 +6,15 @@
     box-sizing: border-box;
     font-family: Verdana, sans-serif
 }
-header, section, footer{
-    padding: 40px 150px;
+body{
+    display: flex;
+    flex-direction: column;
+}
+wrap{
+    flex: 1;
+}
+header, section{
+    padding: 40px 200px;
 }
 
 header, .sign-up, footer{
@@ -31,7 +38,7 @@ button:hover{
 /* header section */
 header{
     display: flex;
-    justify-content: flex-end;
+    justify-content: space-between;
     align-items: center;
 }
 
@@ -39,9 +46,14 @@ nav{
     color: white;
     display: block;
 }
+
+nav ul{
+    display: flex;
+    gap: 10px;
+}
+
 nav ul li{
-    margin: 0 10px;
-    display: inline-block;
+    display: block;
 }
 nav ul li:hover{
     cursor: pointer;
@@ -50,34 +62,38 @@ nav ul li:hover{
 
 .logo{
     color: white;
-    margin-right: auto;
 }
 
 .logo:hover{
     cursor: pointer;
 }
 
-
-
-
 /* SIGN UP SECTION  */
 
 .sign-up{
     display: flex;
+    justify-content: center;
     align-items: center;
-    justify-content: space-between;
+    gap: 8px;
+    
+    /* justify-content: space-between; */
 }
 
 .sign-sec{
+    
     height: auto;
     display: block;
 
 }
-.sign-sec h1{
-    size: 48px;
+.sign-sec tit{
+    margin-bottom: 5px;
+    font-size: 48px;
+    font-weight: 900;
     text-align: justify;
 }
 .sign-sec p{
+    margin-bottom: 5px;
+    font-size: 18px;
     text-align: justify;
 }
 .sign-sec button{
@@ -92,11 +108,6 @@ nav ul li:hover{
     display: block;
     background: white;
 }
-
-
-
-
-
 
 /* INFO SECTION */
 .info{
@@ -139,6 +150,13 @@ info-desc{
     display: block;
     background-color: lightgray;
 }
+.review .main{
+    font-size: large;
+    font-style: italic;
+}
+.review .name{
+    text-align: end;
+}
 /* idk yet */
 .idk-yet{
     display: flex;
@@ -166,6 +184,6 @@ banner-text{
 /* FOOTER */
 
 footer{
-    margin-top: 100px;
     text-align: center;
+    padding: 10px 10px;
 }
