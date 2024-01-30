@@ -14,7 +14,7 @@ wrap{
     flex: 1;
 }
 header, section{
-    padding: 400px 200px;
+    padding: 40px 20%;
 }
 
 header, .sign-up, footer{
